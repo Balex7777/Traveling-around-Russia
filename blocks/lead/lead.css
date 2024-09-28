@@ -6,7 +6,44 @@
 
 .lead svg{
 	display: block;
-	top: 458px;
-	left:23px;
+	top: 45%;
+	transform: translateY(-65%);
+	left:2.5%;
+	width: 95%;
 	position: absolute;
+}
+
+.lead figure{
+	position: relative;
+}
+
+.lead figcaption{
+	max-width: calc(100% + 48px);
+	padding: 0 24px;
+	margin-left: -24px;
+}
+
+@media (max-width: 1024px){
+	.lead{
+		padding: 0 24px;
+		margin: 48px auto 0;
+
+	}
+	.lead figure{
+		width: calc(48px + 100%);
+		margin-left: -24px;
+	}
+	.lead figcaption{
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 400px) {
+	.lead{
+		padding: 0 16px;
+	}
+	.lead figure{
+		width: calc(32px + 100%);
+		margin-left: -16px;
+	}
 }
