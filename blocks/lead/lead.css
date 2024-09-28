@@ -33,6 +33,7 @@
 		width: calc(48px + 100%);
 		margin-left: -24px;
 	}
+	
 	.lead figcaption{
 		margin-left: 0;
 	}
@@ -45,5 +46,9 @@
 	.lead figure{
 		width: calc(32px + 100%);
 		margin-left: -16px;
+	}
+
+	.lead figcaption{
+		padding: 0 16px;
 	}
 }

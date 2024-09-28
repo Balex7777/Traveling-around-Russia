@@ -12,3 +12,10 @@
 		height: 480px;
 	}
 }
+
+@media (max-width: 768px){
+	.cover{
+		margin: 40px auto 64px;
+
+	}
+}
