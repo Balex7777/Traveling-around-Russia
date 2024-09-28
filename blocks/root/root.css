@@ -7,4 +7,9 @@
 .root{
 	background-color: var(--backround-color);
 	font-family: Inter;
+	color: var(--text);
+}
+
+figure{
+	margin: 0;
 }
